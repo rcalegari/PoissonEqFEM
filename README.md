@@ -11,8 +11,13 @@ The project builds on the 1D FEM implementation and extends it to 2D problems on
 We solve the weak form of the Poisson equation:
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?%5Cdisplaystyle%20-%5Cnabla%5Ccdot%28%5Ckappa%5Cnabla%20u%29%20%3D%20f%2C%20%5Cquad%20u%7C_%7B%5CGamma_D%7D%3D0%2C%20%5Cquad%20%5Cnabla%20u%5Ccdot%20n%7C_%7B%5CGamma_N%7D%3Dg" alt="Poisson equation">
+  <!-- Dark mode (white text) -->
+  <img src="https://latex.codecogs.com/svg.latex?\color{White}\displaystyle%20-%5Cnabla%5Ccdot%28%5Ckappa%5Cnabla%20u%29%20%3D%20f%2C%20%5Cquad%20u%7C_%7B%5CGamma_D%7D%3D0%2C%20%5Cquad%20%5Cnabla%20u%5Ccdot%20n%7C_%7B%5CGamma_N%7D%3Dg#gh-dark-mode-only" alt="Poisson equation (dark mode)">
+  
+  <!-- Light mode (black text) -->
+  <img src="https://latex.codecogs.com/svg.latex?\displaystyle%20-%5Cnabla%5Ccdot%28%5Ckappa%5Cnabla%20u%29%20%3D%20f%2C%20%5Cquad%20u%7C_%7B%5CGamma_D%7D%3D0%2C%20%5Cquad%20%5Cnabla%20u%5Ccdot%20n%7C_%7B%5CGamma_N%7D%3Dg#gh-light-mode-only" alt="Poisson equation (light mode)">
 </p>
+
 
 
 using finite element spaces defined on mapped reference elements.
