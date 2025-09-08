@@ -32,6 +32,8 @@ using finite element spaces defined on mapped reference elements.
   - `star3.mat`, `star4.mat`, `star5.mat`
   - `distressed_robotD.mat`
   - `distressed_robotDN.mat`
+- `H` - results using geometry with zero boundary (GammaN = 0), k = 1, f = 1.
+- `I` - results using geometry with nonzero boundary (GammaN != 0), k = 1, f = sin(x)sin(y).
 
 
 
