@@ -10,11 +10,15 @@ The project builds on the 1D FEM implementation and extends it to 2D problems on
 
 We solve the weak form of the Poisson equation:
 
-\[
-- \nabla \cdot \kappa \nabla u = f \quad \text{in } \Omega, \qquad
-u = 0 \text{ on } \Gamma_D, \qquad
-\nabla u \cdot n = g \text{ on } \Gamma_N
-\]
+<p align="center">
+  <!-- Dark mode (white text) -->
+  <img src="https://latex.codecogs.com/svg.latex?\color{White}\displaystyle%20-%5Cnabla%5Ccdot%28%5Ckappa%5Cnabla%20u%29%20%3D%20f%2C%20%5Cquad%20u%7C_%7B%5CGamma_D%7D%3D0%2C%20%5Cquad%20%5Cnabla%20u%5Ccdot%20n%7C_%7B%5CGamma_N%7D%3Dg#gh-dark-mode-only" alt="Poisson equation (dark mode)">
+  
+  <!-- Light mode (black text) -->
+  <img src="https://latex.codecogs.com/svg.latex?\displaystyle%20-%5Cnabla%5Ccdot%28%5Ckappa%5Cnabla%20u%29%20%3D%20f%2C%20%5Cquad%20u%7C_%7B%5CGamma_D%7D%3D0%2C%20%5Cquad%20%5Cnabla%20u%5Ccdot%20n%7C_%7B%5CGamma_N%7D%3Dg#gh-light-mode-only" alt="Poisson equation (light mode)">
+</p>
+
+
 
 using finite element spaces defined on mapped reference elements.
 
@@ -28,6 +32,8 @@ using finite element spaces defined on mapped reference elements.
   - `star3.mat`, `star4.mat`, `star5.mat`
   - `distressed_robotD.mat`
   - `distressed_robotDN.mat`
+- `H` - results using geometry with zero boundary (GammaN = 0), k = 1, f = 1.
+- `I` - results using geometry with nonzero boundary (GammaN != 0), k = 1, f = sin(x)sin(y).
 
 
 
